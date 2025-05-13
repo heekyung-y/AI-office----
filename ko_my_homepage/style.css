@@ -1,0 +1,65 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fff0f5; /* 더 연한 파스텔 핑크 */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #ffc1cc; /* 연한 파스텔 핑크 */
+  padding: 20px;
+  border-bottom: 2px solid #ccc;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 800;
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #0033cc;
+}
+
+nav a.active {
+  border-bottom: 2px solid #0033cc;
+}
+
+main {
+  padding: 30px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+form {
+  margin-top: 20px;
+}
+
+textarea {
+  font-family: inherit;
+  padding: 10px;
+  resize: vertical;
+}
+
+button {
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: #ffccdd;
+  border: none;
+  cursor: pointer;
+}
